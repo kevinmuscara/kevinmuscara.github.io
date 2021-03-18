@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Alegreya HT Pro";
+  src: url("fonts/Alegreya-Regular.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Alegreya HT Pro";
+  src: url("fonts/Alegreya-Italic.woff");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Alegreya HT Pro";
+  src: url("fonts/Alegreya-Bold.woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Meslo LG";
+  src: url("fonts/MesloLGS-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  min-height: 100%;
+}
+body {
+  font-family: "Meslo LG", sans-serif;
+  font-size: 10pt;
+  line-height: 1.5em;
+  max-width: 50em;
+  margin-top: 0;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 1em;
+  background: white;
+  color: black;
+
+  min-height: 100%;
+
+  /* background-image: url('images/sheep.png'); */
+  background-size: 40em auto;
+  margin-bottom: 10em;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+img {
+  max-width: 50%;
+  margin: 0.5em;
+  float: right;
+}
+/* img:hover {
+  transform: rotate(-4deg);
+  filter: hue-rotate(180deg);
+} */
+h1, h2 {
+  font-family: 'Alegreya HT Pro', sans-serif;
+  font-weight: 600;
+  text-align: left;
+}
+h2 {
+  margin-top: 3em;
+}
+
+pre {
+  font-family: "Meslo LG", monospace;
+  margin: 0;
+  padding: 0;
+}
+pre a { text-decoration: none; color: green; }
+pre a:hover { text-decoration: underline; }
+.kwd { color: #088; }
+.cmt { color: pink; }
+.nbr { color: gray; }
+.cursor {
+  background: black;
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  0% { background: black; }
+  50% {background: none; }
+}
